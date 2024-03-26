@@ -1,0 +1,93 @@
+.content {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.characteristics-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.characteristics-description {
+    display: flex;
+    background-color: #d1cece;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+    & > tr > th {
+        display: inline;
+        margin-right: 110px;
+        font-size: 20px;
+        font-weight: 600;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.characteristics-count {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+
+    & tr {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid #ccc;
+    }
+
+    & input {
+        display: inline;
+        margin-right: 40px;
+        padding: 10px;
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+}
+
+.submit-button {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+
+    &:hover {
+        background-color: #ccc;
+    }
+
+    &:active {
+        background-color: #fff;
+    }
+}
+
+.disabled {
+    background-color: #e7e4e4;
+    cursor: not-allowed;
+    color: #ccc;
+
+    & :hover {
+        background-color: #e7e4e4;
+    }
+
+    & :active {
+        background-color: #e7e4e4;
+    }
+}

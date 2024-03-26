@@ -1,0 +1,52 @@
+.content {
+    display: flex;
+
+    margin-top: 40px;
+}
+
+.train-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-right: 100px;
+}
+
+.content-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.content-descriptions {
+    background-color: #d1cece;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+    & > span {
+        font-size: 20px;
+        font-weight: 500;
+        margin-right: 80px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.number-train {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+
+    & > div {
+        padding: 10px;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
